@@ -30,3 +30,5 @@ var decimal = 4.6;
 var texto = "Oi";
 
 var lista = ["a","b","c"];
+
+console.log(texto);
