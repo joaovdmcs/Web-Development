@@ -42,3 +42,8 @@ soma(7,7);
 function mensagem(nome){
 	alert("Clickado "+nome);
 }
+
+function mudaCor(cor){
+	var elemento = document.getElementById("alou");
+	elemento.style.color = cor;
+}
