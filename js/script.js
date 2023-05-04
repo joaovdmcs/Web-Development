@@ -1,4 +1,4 @@
-var mensagem = "Hello World!";
+/*var mensagem = "Hello World!";
 var a = 2;
 var b = 3;
 
@@ -32,3 +32,13 @@ var texto = "Oi";
 var lista = ["a","b","c"];
 
 console.log(texto);
+*/
+
+function soma(a, b){
+	console.log(a+b);
+}
+soma(7,7);
+
+function mensagem(nome){
+	alert("Clickado "+nome);
+}
