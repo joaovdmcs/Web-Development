@@ -1,7 +1,45 @@
-p{
+body{
+	background-color: black;
+}
+
+
+header{
+	color: green;
+	font-size: 90px;
+	background: white;
+	height: 100px;
+}
+
+/* divs acima um do outro
+para definir tags com ID, é necessario utilizar 
+#div1{
+	background-color: grey;
 	color: red;
 }
 
-body{
-	background: black;
+#div2{
+	background-color: green;
+	color: white;
+}
+*/
+
+#div1{
+	background-color: grey;
+	color: red;
+	min-height: 200px;
+	width: 80%;
+	float: left;
+}
+
+#div2{
+	background-color: green;
+	color: white;
+	min-height: 200px;
+	width:20%;
+	float: right;
+}
+
+footer{
+	clear: both;
+	background-color: white;
 }
